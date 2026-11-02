@@ -1,0 +1,25 @@
+name: Scope check
+description: Ask about one public-code correctness check before a quote or order.
+title: "Scope enquiry: "
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: Public repository and exact commit
+      description: Link only public code you may use. Do not include credentials or private data.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: One question to check
+      description: Describe the expected and observed behaviour, with the relevant command.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Small public or synthetic example
+      description: Add the smallest useful input or a public link. Do not post payment details or personal data.
+    validations:
+      required: true
