@@ -63,10 +63,16 @@ On that pinned source, all 2,529 local workspace tests passed, along with
 remain part of that result.
 
 [Refreshed validation notes](https://github.com/jhrch7/Go-Hybrid/blob/4d17b5e008cd1a25ba43ace02d483e56e688361e/spikes/error-alias-emission-3323/RESULTS.md)
-retain the toolchain pins and limits. Hosted CI on the refreshed head still
-awaited maintainer approval when last observed; merge and any bounty award
-remain unconfirmed. This follow-through changes neither the original baseline
-results nor the distinction between local validation and upstream acceptance.
+retain the toolchain pins and limits. At the 3 November 2026 06:27 UTC
+readback, the refreshed `4d17b5e` head had successful hosted
+[compiler](https://github.com/limitlessprojects/Go-Hybrid/actions/runs/41562295055/job/125723994050)
+and [quick](https://github.com/limitlessprojects/Go-Hybrid/actions/runs/41562295055/job/125723994204)
+checks. The separate
+[preflight](https://github.com/limitlessprojects/Go-Hybrid/actions/runs/41562294688/job/125761348736)
+check was skipped. No new source change or test run was made for this page.
+Maintainer review, merge, any bounty award and payment remain unconfirmed.
+This follow-through preserves the original baseline results and distinguishes
+local execution, hosted checks and upstream acceptance.
 
 This page is original explanatory text. Linked projects and code retain their
 own licences. No private report or customer data is included.
