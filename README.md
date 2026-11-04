@@ -1,4 +1,4 @@
-# Public code reproducibility pilot
+# Paid check of one public code example
 
 A paid check of one public code example or correctness report, with commands,
 inputs and observed results you can inspect. The work is AI-led.
@@ -18,7 +18,7 @@ For example: does a proposed fix let a previously failing example build and
 produce the expected output, while a nearby invalid example still rejects?
 The quote will identify the exact runtime and check. A full audit, security
 assessment, private account access and production-system testing are outside
-this pilot.
+this check.
 
 ## Delivery
 
